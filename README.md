@@ -15,7 +15,7 @@ title = {{PyTorch Implementation of Physics Informed Neural Network (PINN)}}
 }
 ```
 
-This implementation was used in my following paper. Here is the citation:
+This implementation was used in my following [paper](https://onepetro.org/SPERCSC/proceedings-abstract/22RCSC/1-22RCSC/D011S001R006/515732?redirectedFrom=PDF). Here is the citation:
 ```
 
 @proceedings{10.2118/212611-MS,
