@@ -1,0 +1,40 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  PyTorch Implementation of Physics Informed Neural Network
+  (PINN)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Nandita
+    family-names: Doloi
+    email: nanditad48@gmail.com
+    orcid: 'https://orcid.org/0009-0007-1948-004X'
+identifiers:
+  - type: url
+    value: 'https://github.com/nanditadoloi/PINN'
+    description: Github Code Repository
+repository: >-
+  https://onepetro.org/SPERCSC/proceedings-abstract/22RCSC/1-22RCSC/515732
+abstract: >-
+  This repository contains my simple and clear to understand
+  implementation of the paper [1]. As an example, I solved
+  the 1D heat partial differential equation.
+
+
+  [1] Raissi, Maziar, Paris Perdikaris, and George E.
+  Karniadakis. "Physics-informed neural networks: A deep
+  learning framework for solving forward and inverse
+  problems involving nonlinear partial differential
+  equations." Journal of Computational Physics 378 (2019):
+  686-707.
+keywords:
+  - pinn
+  - pytorch
+  - github
+  - nandita doloi
+license: MIT
