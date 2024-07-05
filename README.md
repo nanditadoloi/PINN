@@ -15,7 +15,22 @@ title = {{PyTorch Implementation of Physics Informed Neural Network (PINN)}}
 }
 ```
 
-This implementation was used in my following [paper](https://onepetro.org/SPERCSC/proceedings-abstract/22RCSC/1-22RCSC/D011S001R006/515732?redirectedFrom=PDF). Here is the citation:
+
+
+This implementation was used in my following 
+[paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4477245). Here is the citation:
+```
+@article{doloi4477245iterative,
+  title={Iterative Methods for Neural Networks to Approximate the Solution of Nonlinear Two-Phase Flow Through Porous Media},
+  author={Doloi, Nandita and Phirani, Jyoti},
+  journal={Available at SSRN 4477245},
+  abstract = "{Machine Learning models are often used to make inferences on data that originate from some physical phenomena. For such applications, we might want the inferences to follow the laws of physics. Physics-informed neural networks (PINN) provide us with a mechanism to incorporate physical constraints on the data in the form of differential equations. In this work, we study the use of PINNs in the field of geological reservoirs particularly in solving the Buckley Leverette equation for nonlinear two-phase flow through porous media. PINNs have a tough time solving this equation as it belongs to the class of hyperbolic partial differential equations, which contain discontinuities in the solution. The discontinuity in the solution gives rise to a highly non-convex loss landscape for PINN, and so any second-order quasi-newton optimization method would get stuck in a local minimum and fail to find a good solution unless there is a very good initialization. In this work, we explore two methods which are Graduated optimization and Region based bootstrapping to handle this discontinuity and approximate a better solution to the Buckley Leverette equation as compared to the original PINN optimization. We observed that the loss we were able to achieve were at-least 10 times lower than the baseline.}"
+}
+```
+
+
+
+[paper](https://onepetro.org/SPERCSC/proceedings-abstract/22RCSC/1-22RCSC/D011S001R006/515732?redirectedFrom=PDF). Here is the citation:
 ```
 
 @proceedings{10.2118/212611-MS,
